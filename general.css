@@ -1,0 +1,26 @@
+/* available font weights:
+light: 300,
+regular: 400,
+medium:500,
+bold: 700
+*/
+
+/* font dimensions
+titles:font-size: 52px, font-weight:5000, line-height: 60px;
+subtitle: font-size:24px, font-weight: 400, line-height: 30px;
+peragraph: font-size: 16px, font-weight: 400, line-height: 28px font-color: rgb(117, 117, 117);
+*/
+
+/* font color
+white: rgb(255, 255, 255)
+blue: rgb(26, 115, 232)
+grey/black:  rgb(2, 136, 209)
+*/
+
+/* the general bacgkround will be applied at the end of the projects when all components are finalized
+For section 1 we will apply the blue background and for the rest we will keep the simple white background till the end.
+*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
