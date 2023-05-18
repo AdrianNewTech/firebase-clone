@@ -46,7 +46,7 @@ footer div ul {
     line-height: var(--line-para);
 }
 
-.footer_link {
+.footer__link {
     text-decoration: none;
 }
 
