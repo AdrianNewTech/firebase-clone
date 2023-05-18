@@ -1,3 +1,5 @@
+@import url(./homepageStyle/navbar.css);
+
 /* available font weights:
 light: 300,
 regular: 400,
@@ -22,5 +24,5 @@ For section 1 we will apply the blue background and for the rest we will keep th
 */
 
 body {
-  font-family: "Open Sans", sans-serif;
+	font-family: "Open Sans", sans-serif;
 }
