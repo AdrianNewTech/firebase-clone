@@ -10,11 +10,66 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./homepageStyle/section2.css" />
     <title>Firebase</title>
-  </head>
-  <body>
-    <section class="section-2">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="./general.css" />
+		<link rel="shortcut icon" href="https://www.gstatic.com/devrel-devsite/prod/vfe8699a5d354c41f3f953a7a9794768d4d2f39d37577d5708b5539be069912e1/firebase/images/favicon.png" type="image/x-icon" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="./homepageStyle/section2.css" />
+		<title>Firebase</title>
+	</head>
+	<body>
+    
+<!--   Navbar   -->
+		<header>
+			<div class="top-row-container flex-row">
+				<div class="top-row-container__left flex-row">
+					<img class="website-logo" src="./assets/navbar/firebase-logo.svg" alt="logo of the website" />
+					<nav class="navbar">
+						<ul class="navbar__btns flex-row">
+							<li class="navbar__btn dropdown-button flex-row">
+								<a class="flex-row" href="#">Products</a>
+							</li>
+							<li class="navbar__btn dropdown-button flex-row"><a class="flex-row" href="#">Solutions</a></li>
+							<li class="navbar__btn flex-row">
+								<a href="#"><a class="flex-row" href="#">Pricing</a></a>
+							</li>
+							<li class="navbar__btn dropdown-button flex-row"><a class="flex-row" href="#">Docs</a></li>
+							<li class="navbar__btn dropdown-button flex-row"><a class="flex-row" href="#">Community</a></li>
+							<li class="navbar__btn flex-row">
+								<a href="#"><a class="flex-row" href="#">Support</a></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="top-row-container__right flex-row">
+					<div class="search-container flex-row">
+						<img class="search-icon" src="./assets/navbar/search-icon.svg" alt="search icon" />
+						<input type="text" class="search-box" name="search" id="search" placeholder="Search" />
+					</div>
+					<button class="language-button flex-row">
+						<img class="language-button__icon" src="./assets/navbar/language-icon.svg" alt="language icon" />
+						<p class="language-button__text dropdown-button flex-row">Language</p>
+					</button>
+					<button class="console-button">Go to console</button>
+					<button class="developer-button flex-row"><img src="./assets/navbar/vector5.svg" alt="" /></button>
+					<button class="user-button"></button>
+				</div>
+			</div>
+
+			<div class="announcements-container flex-row">
+				<p class="announcement-text">Catch up on highlights from Firebase at Google I/O 2023. <a class="announcement-link" href="#">Learn more</a></p>
+			</div>
+		</header>
+    
+<!--    Section 2  -->
+     <section class="section-2">
       <div class="section-2-title">
       <h1>Products and solutions you can rely on through your
   app's journey</h1>
@@ -70,5 +125,6 @@
   </div>
   <p class="all-products">All products</p>
     </section>
-  </body>
+    
+	</body>
 </html>
