@@ -1,0 +1,122 @@
+/* CSS reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Open Sans", sans-serif;
+}
+
+/* CSS variables */
+:root {
+	/* Font */
+	--font: "Open Sans", sans-serif;
+	/* Font weights */
+	--light: 300;
+	--regular: 500;
+	--medium: 600;
+	--bold: 700;
+	/* Colors */
+	--white: rgb(255, 255, 255);
+	--blue: rgb(26, 115, 232);
+	--black: rgb(2, 136, 209);
+	--grey: rgb(117, 117, 117);
+	--nav-item: rgb(87, 87, 87);
+}
+
+/* Main formatting */
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+/* Flex classes */
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+/* Section 6 container */
+.section6 {
+	margin-top: 100px;
+	width: 1250px;
+	height: 708px;
+	padding: 80px 90px;
+	border: 1px solid rgb(244, 244, 244);
+	box-shadow: 0px 2px 3px 1px #dcdcdc;
+	border-radius: 14px;
+	gap: 60px;
+}
+
+/* Section 6 title */
+.section6 .section-title {
+	font-size: 44px;
+	color: rgb(64, 64, 64);
+	font-weight: var(--regular);
+	text-align: center;
+}
+
+/* Cards container */
+.section6 .cards-container {
+	gap: 65px;
+}
+
+/* Card container */
+.section6 .card {
+	width: 310px;
+	height: 445px;
+}
+
+/* Card img */
+.section6 .card .card-img {
+	width: 100%;
+	height: 175px;
+}
+
+.section6 .card .card-img {
+	cursor: pointer;
+}
+
+/* Card title */
+.section6 .card-title {
+	color: var(--nav-item);
+	font-weight: var(--medium);
+	margin-bottom: 30px;
+	margin-top: 40px;
+}
+
+/* Card text */
+.section6 .card-text {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+/* Card button */
+.section6 .readmore-card-btn {
+	padding: 6px 0px;
+	margin-top: 20px;
+	width: 120px;
+	height: 100px;
+	font-size: 17px;
+	font-weight: var(--medium);
+	background-color: white;
+	border: none;
+	transition: 0.2s;
+	color: var(--blue);
+	background-color: white;
+	letter-spacing: 0.5px;
+	border-radius: 10px;
+	position: relative;
+	left: -10px;
+	justify-content: center;
+}
+
+.section6 .readmore-card-btn:hover {
+	background-color: rgb(227, 243, 255);
+	cursor: pointer;
+}
