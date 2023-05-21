@@ -3,13 +3,13 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 
 /* CSS variables */
 :root {
 	/* Font */
-	--font: "Open Sans", sans-serif;
+	--font: 'Open Sans', sans-serif;
 	/* Font weights */
 	--light: 300;
 	--regular: 500;
@@ -21,13 +21,6 @@
 	--black: rgb(2, 136, 209);
 	--grey: rgb(117, 117, 117);
 	--nav-item: rgb(87, 87, 87);
-}
-
-/* Main formatting */
-main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
 }
 
 /* Flex classes */
@@ -43,7 +36,7 @@ main {
 
 /* Section 6 container */
 .section6 {
-	margin-top: 100px;
+	margin: 100px auto 50px auto;
 	width: 1250px;
 	height: 708px;
 	padding: 80px 90px;
