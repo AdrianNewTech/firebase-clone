@@ -3,14 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }    
-.container-text-1 {
+.container-title-1 {
     font-size: 52px;
     font-weight: 5000;
     line-height: 60px;
     margin-bottom: 25px;
     padding: 10px;    
 }
-.container-text-2 {
+.container-title-2 {
     font-size:24px;
     font-weight: 400;
     line-height: 30px;
