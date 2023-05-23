@@ -1,0 +1,47 @@
+ @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Wix Madefor Display', sans-serif;
+    margin-top: 50px;
+  }
+
+  .summary{
+    display: flex;
+    text-align: center;
+    margin-top: 30px;
+    width: 360px;
+    margin-left: 590px;
+    font-size: 12px;
+    line-height: 28px;
+    color: #808080;
+  }
+
+  img{
+    width: 240px;
+    height: 120px;
+    margin-left: 70px;
+  }
+
+  .first-set{
+    margin-top: 50px;
+    margin-left: 100px;
+  }
+  
+  .second-set{
+    margin-top: 65px;
+    margin-left: 100px;
+  }
+
+  .third-set{
+    margin-top: 65px;
+    margin-left: 100px;
+  }
