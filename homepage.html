@@ -16,8 +16,11 @@
 	<link rel="stylesheet" href="./homepageStyle/section4.css">
   <link rel="stylesheet" href="./homepageStyle/section1.css">
   <link rel="stylesheet" href="./homepageStyle/section7.css">
+     <link rel="stylesheet" href="./homepageStyle/section2.css" />
+    <link rel="stylesheet" href="./homepageStyle/section8.css"/>
 	<title>Firebase</title>
 </head>
+
 	<body>
 		<header>
 			<div class="top-row-container flex-row">
@@ -153,6 +156,7 @@
     </div>
   </section>
 
+
 	<!-- Section 4 - AT -->
 		<section class="section__four">
 			<h1>Integrations</h1>
@@ -267,6 +271,58 @@
 				<button onclick="alert('It works!')"> View solutions</button>
 		</section>
       
+<!--    Section 8  -->
+    <section class="section-8">
+    <h1 class="section-8-heading">Easy to integrate on iOS, Android, and the Web</h1>
+    <p class="section-8-subheading">Firebase provides detailed documentation and cross-platform SDKs to help you build and ship apps on Android, iOS, the web, C++, and Unity</p>
+  <div class="container-code">
+    <div class="container-code-flex">
+    <ul  class="container-code-lefside">
+      <li class="list-styling">Autenticate a new user</li>
+      <li class="list-styling">Read / Write in realtime</li>
+      <li class="list-styling">Subscribe a user to a notification topic</li>
+      <li class="list-styling">Log a Custom Analytics event</li>
+      <li class="list-styling">Save an image to Cloud Storage</li>
+    </ul>
+    <div class="container-card-code">
+      <div class="container-code-content">
+      <span class="heading-code-content">Swift</span>
+      <span class="heading-code-content">Objective-C</span>
+      <div class="two-items heading-code-content">
+      <span >Java</span>
+      <span class="subpara">Android</span>
+      </div>
+      <div class="two-items  heading-code-content">
+        <span>Kotlin+KTX</span>
+        <span class="subpara">Android</span>
+        </div>
+        <div class="two-items heading-code-content">
+          <span >Dart</span>
+          <span class="subpara">Flutter</span>
+          </div>
+          <span class="heading-code-content">JavaScript</span>
+          <span class="heading-code-content">C++</span>
+          <span class="heading-code-content">Unity</span>
+      </div>
+      <div class="code-content-middle">
+      <p><span class="code-blue-words">Auth</span>.auth().addStateDidChangeListener { (auth, user) <span class="code-blue-words">in</span></p>
+      <p><span class="code-blue-words">if</span> let user = user { </p>
+      <p>}</p>
+      <p> }</p>
+      <p> <span class="code-blue-words">Auth</span>.auth().signIn(withEmail:  userEmail, password: password) { (user, error) <span>in</span></p>
+        <p><span class="code-blue-words">if</span> let user = user {</p>
+          <span>// ...</span>
+        <p>}</p>
+      <p>}</p>
+      </div>
+    </div>
+    </div>
+  </div>
+  <div class="section-8-footer">View all docs</div>
+  </section>
+
+    
+    
 		</main>
 	</body>
 </html>
