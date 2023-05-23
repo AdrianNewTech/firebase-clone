@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 	<meta charset="UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -15,36 +14,43 @@
 		type="image/x-icon" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 	<link rel="stylesheet" href="./homepageStyle/section4.css">
+  <link rel="stylesheet" href="./homepageStyle/section1.css">
 	<title>Firebase</title>
 </head>
-
-<body>
-
-	<header>
-		<div class="top-row-container flex-row">
-			<div class="top-row-container__left flex-row">
-				<img class="website-logo" src="./assets/navbar/firebase-logo.svg" alt="logo of the website" />
-				<nav class="navbar">
-					<ul class="navbar__btns flex-row">
-						<li class="navbar__btn dropdown-button flex-row">
-							<a class="flex-row" href="#">Products</a>
-						</li>
-						<li class="navbar__btn dropdown-button flex-row"><a class="flex-row" href="#">Solutions</a></li>
-						<li class="navbar__btn flex-row">
-							<a href="#"><a class="flex-row" href="#">Pricing</a></a>
-						</li>
-						<li class="navbar__btn dropdown-button flex-row"><a class="flex-row" href="#">Docs</a></li>
-						<li class="navbar__btn dropdown-button flex-row"><a class="flex-row" href="#">Community</a></li>
-						<li class="navbar__btn flex-row">
-							<a href="#"><a class="flex-row" href="#">Support</a></a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-			<div class="top-row-container__right flex-row">
-				<div class="search-container flex-row">
-					<img class="search-icon" src="./assets/navbar/search-icon.svg" alt="search icon" />
-					<input type="text" class="search-box" name="search" id="search" placeholder="Search" />
+	<body>
+		<header>
+			<div class="top-row-container flex-row">
+				<div class="top-row-container__left flex-row">
+					<img class="website-logo" src="./assets/navbar/firebase-logo.svg" alt="logo of the website" />
+					<nav class="navbar">
+						<ul class="navbar__btns flex-row">
+							<li class="navbar__btn dropdown-button flex-row">
+								<a class="flex-row" href="#">Products</a>
+							</li>
+							<li class="navbar__btn dropdown-button flex-row"><a class="flex-row" href="#">Solutions</a></li>
+							<li class="navbar__btn flex-row">
+								<a href="#"><a class="flex-row" href="#">Pricing</a></a>
+							</li>
+							<li class="navbar__btn dropdown-button flex-row"><a class="flex-row" href="#">Docs</a></li>
+							<li class="navbar__btn dropdown-button flex-row"><a class="flex-row" href="#">Community</a></li>
+							<li class="navbar__btn flex-row">
+								<a href="#"><a class="flex-row" href="#">Support</a></a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+				<div class="top-row-container__right flex-row">
+					<div class="search-container flex-row">
+						<img class="search-icon" src="./assets/navbar/search-icon.svg" alt="search icon" />
+						<input type="text" class="search-box" name="search" id="search" placeholder="Search" />
+					</div>
+					<button class="language-button flex-row">
+						<img class="language-button__icon" src="./assets/navbar/language-icon.svg" alt="language icon" />
+						<p class="language-button__text dropdown-button flex-row">Language</p>
+					</button>
+					<button class="console-button">Go to console</button>
+					<button class="developer-button flex-row"><img src="./assets/navbar/vector5.svg" alt="" /></button>
+					<button class="user-button"></button>
 				</div>
 				<button class="language-button flex-row">
 					<img class="language-button__icon" src="./assets/navbar/language-icon.svg" alt="language icon" />
@@ -63,8 +69,90 @@
 	</header>
 
 	<main>
+      
+<!--     Section 1   -->
+      	<section class="top-container">            
+				<div class="container-text">
+					<h1 class="container-title-1">Make your app the<br>
+					best it can be</h1>
+					<h2 class="container-title-2">Firebase is an app development platform that helps you<br>
+					build and grow apps and games users love.Backed by<br>
+					Google and trusted by millions of businesses around the<br>
+					world.</h2>        
+					<div class="container-button">
+						<button class="buton-start">Get Started</button>
+						<a href="#" class="buton-start-1">Try demo</a>
+						<div class="vertical"></div>
+						<a href="#" class="buton-start-1">Watch video</a>
+					</div>
+				</div>
+				<div class="top-bg-image">
+					<img src="./assets/section1/section_1.png" alt="bg-image"> 
+				</div>
+		  	</section>
+   
+<!--    Section 2  -->
+    
+  <section class="section-2-and-3">
+     <div class="section-2">
+      <div class="section-2-title">
+      <h1>Products and solutions you can rely on through your
+  app's journey</h1>
+    </div>
+    <div class="section-2-cards">
+    <div class="section-2-first-card">
+      <img class="section-2-cards-icon" src="./assets/section2/home-icon-build.png">
+      <h2 class="section-2-cards-subtitle">Build</h2>
+      <div class="section-2-paragraphs">
+        <p>Accelerate app development
+        with fully managed backend
+        infrastructure</p>
+      </div>
+      <p class="view-all">View all build products</p>
+      <div class="section-2-paragraphs">
+        <p>Cloud Firestone</p>
+        <p>Authentication</p>
+        <p>Extensions</p>
+      </div>
+    </div>
+    <div class="section-2-second-card">
+      <img class="section-2-cards-icon" src="./assets/section2/home-icon-release.png">
+      <h2 class="section-2-cards-subtitle">Release & Monitor</h2>
+      <div class="section-2-paragraphs">
+        <p>Release with confidence and
+        monitor performance and
+        stability</p>
+      </div>
+      <div>
+        <p class="view-all">View all release & monitor
+        products</p>
+      </div>
+      <div class="section-2-paragraphs">
+        <p>Crashlytics</p>
+        <p>Performance</p>
+        <p>Monitoring</p>
+        <p>Google Analytics</p>
+      </div>
+    </div>
+    <div class="section-2-third-card">
+      <img class="section-2-cards-icon" src="./assets/section2/home-icon-engage.png">
+      <h2 class="section-2-cards-subtitle">Engage</h2>
+      <div class="section-2-paragraphs">
+        <p>Boost user engagement with rich analytics, A/B testing, and messaging campaigns</p>
+      </div>
+      <p class="view-all">View all engage products</p>
+      <div class="section-2-paragraphs">
+        <p>Remote Config</p>
+        <p>Cloud Messaging</p>
+        <p>A/B testing</p>
+      </div>
+    </div>
+  </div>
+  <p class="all-products">All products</p>
+    </div>
+  </section>
 
-		<!-- Section 4 - AT -->
+	<!-- Section 4 - AT -->
 		<section class="section__four">
 			<h1>Integrations</h1>
 			<p class="section__subtitle">Easily integrate Firebase with your team's favorite tools</p>
@@ -142,9 +230,33 @@
 					<a class="footer__link" href="#">Read more</a>
 				</div>
 			</div>
-
 		</section>
-	</main>
-</body>
-
+    
+<!-- 	Section 6	 -->
+			<section class="section6 flex-column">
+				<h2 class="section-title">News & events</h2>
+				<div class="cards-container flex-row">
+					<div class="card flex-column">
+						<img class="card-img" src="./assets/section6/section6-1.png" alt="" />
+						<h3 class="card-title">What's New in Firebase at Google IO 2023</h3>
+						<p class="card-text">Catch up on highlights from Firebase at Google IO, and learn how we are strengthening communication and integration across our toolchain to make full stack development seamless.</p>
+						<button class="readmore-card-btn flex-row">Read more</button>
+					</div>
+					<div class="card flex-column">
+						<img class="card-img" src="./assets/section6/section6-2.jpg" alt="" />
+						<h3 class="card-title">Getting started with email/link auth on iOS</h3>
+						<p class="card-text">In this video, @PeterFriese will walk you through how to get started with Email/Link Authentication on iOS. Learn how to let your users sign in to your</p>
+						<button class="readmore-card-btn flex-row">Read more</button>
+					</div>
+					<div class="card flex-column">
+						<img class="card-img" src="./assets/section6/section6-3.jpg" alt="" />
+						<h3 class="card-title">#FirebaserFriday: Frank van Puffelen</h3>
+						<p class="card-text">Join us for the monthly mini-profiles on Firebase team members, aka “Firebasers”, from all around the world! Learn about their backgrounds, how</p>
+						<button class="readmore-card-btn flex-row">Read more</button>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
 </html>
+
