@@ -1,18 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap" rel="stylesheet" />
-		<link rel="stylesheet" href="./general.css" />
-		<link rel="shortcut icon" href="https://www.gstatic.com/devrel-devsite/prod/vfe8699a5d354c41f3f953a7a9794768d4d2f39d37577d5708b5539be069912e1/firebase/images/favicon.png" type="image/x-icon" />
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-		<link rel="stylesheet" href="./homepageStyle/section1.css">
-		<title>Firebase</title>
-	</head>
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap"
+		rel="stylesheet" />
+	<link rel="stylesheet" href="./general.css" />
+	<link rel="shortcut icon"
+		href="https://www.gstatic.com/devrel-devsite/prod/vfe8699a5d354c41f3f953a7a9794768d4d2f39d37577d5708b5539be069912e1/firebase/images/favicon.png"
+		type="image/x-icon" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="./homepageStyle/section4.css">
+  <link rel="stylesheet" href="./homepageStyle/section1.css">
+	<title>Firebase</title>
+</head>
 	<body>
 		<header>
 			<div class="top-row-container flex-row">
@@ -48,12 +52,44 @@
 					<button class="developer-button flex-row"><img src="./assets/navbar/vector5.svg" alt="" /></button>
 					<button class="user-button"></button>
 				</div>
+				<button class="language-button flex-row">
+					<img class="language-button__icon" src="./assets/navbar/language-icon.svg" alt="language icon" />
+					<p class="language-button__text dropdown-button flex-row">Language</p>
+				</button>
+				<button class="console-button">Go to console</button>
+				<button class="developer-button flex-row"><img src="./assets/navbar/vector5.svg" alt="" /></button>
+				<button class="user-button"></button>
 			</div>
+		</div>
 
-			<div class="announcements-container flex-row">
-				<p class="announcement-text">Catch up on highlights from Firebase at Google I/O 2023. <a class="announcement-link" href="#">Learn more</a></p>
-			</div>
-		</header>
+		<div class="announcements-container flex-row">
+			<p class="announcement-text">Catch up on highlights from Firebase at Google I/O 2023. <a
+					class="announcement-link" href="#">Learn more</a></p>
+		</div>
+	</header>
+
+	<main>
+      
+<!--     Section 1   -->
+      	<section class="top-container">            
+				<div class="container-text">
+					<h1 class="container-title-1">Make your app the<br>
+					best it can be</h1>
+					<h2 class="container-title-2">Firebase is an app development platform that helps you<br>
+					build and grow apps and games users love.Backed by<br>
+					Google and trusted by millions of businesses around the<br>
+					world.</h2>        
+					<div class="container-button">
+						<button class="buton-start">Get Started</button>
+						<a href="#" class="buton-start-1">Try demo</a>
+						<div class="vertical"></div>
+						<a href="#" class="buton-start-1">Watch video</a>
+					</div>
+				</div>
+				<div class="top-bg-image">
+					<img src="./assets/section1/section_1.png" alt="bg-image"> 
+				</div>
+		  	</section>
    
 <!--    Section 2  -->
     
@@ -115,32 +151,88 @@
   <p class="all-products">All products</p>
     </div>
   </section>
-=======
+
+	<!-- Section 4 - AT -->
+		<section class="section__four">
+			<h1>Integrations</h1>
+			<p class="section__subtitle">Easily integrate Firebase with your team's favorite tools</p>
+
+			<!-- Div bar image with all logo icons  -->
+			<div class="section__img__bar">
+				<div>
+					<a class="section__link" href="#">
+						<img class="section__icon" src="./assets/section4/google-ads.svg" alt="Ads_icon">
+						<p class="section__icon__text">Google Ads</p>
+					</a>
+				</div>
+				<div>
+					<a class="section__link" href="#">
+						<img class="section__icon" src="./assets/section4/ad-mob.svg" alt="Mob_icon">
+						<p class="section__icon__text">AdMob</p>
+					</a>
+				</div>
+				<div>
+					<a class="section__link" href="#">
+						<img class="section__icon" src="./assets/section4/google-marketing-platform.svg" alt="Marketing_icon">
+						<p class="section__icon__text">Google Marketing Platform</p>
+					</a>
+				</div>
+				<div>
+					<a class="section__link" href="#">
+						<img class="section__icon" src="./assets/section4/playstore.png" alt="play_icon">
+						<p class="section__icon__text">Google Play</p>
+					</a>
+				</div>
+				<div>
+					<a class="section__link" href="#">
+						<img class="section__icon" src="./assets/section4/datastudio.svg" alt="Studio_icon">
+						<p class="section__icon__text">Data Studio</p>
+					</a>
+				</div>
+				<div>
+					<a class="section__link" href="#">
+						<img class="section__icon" src="./assets/section4/bigquery.svg" alt="Query_icon">
+						<p class="section__icon__text">BigQuery</p>
+					</a>
+				</div>
+				<div>
+					<a class="section__link" href="#">
+						<img class="section__icon" src="./assets/section4/slack.png" alt="Slack_icon">
+						<p class="section__icon__text">Slack</p>
+					</a>
+				</div>
+				<div>
+					<a class="section__link" href="#">
+						<img class="section__icon" src="./assets/section4/jira.svg" alt="Jira_icon">
+						<p class="section__icon__text">Jira</p>
+					</a>
+				</div>
+				<div>
+					<a class="section__link" href="#">
+						<img class="section__icon" src="./assets/section4/pagerduty.png" alt="Duty_icon">
+						<p class="section__icon__text">PagerDuty</p>
+					</a>
+				</div>
+				<div>
+					<a class="section__link" href="#">
+						<img class="section__icon" src="./assets/section4/android-studio.png" alt="Android_icon">
+						<p class="section__icon__text">Android Studio</p>
+					</a>
+				</div>
+			</div>
+			<button class="section__button" onclick="alert('It works!') ">Learn more</button>
+			<div class="section__footer">
+				<img class="footer__icon" src="./assets/section4/cloud-plus-firebase_1x.png" alt="cloud_plus_fire_image">
+				<div>
+					<h2>Google Cloud + Firebase</h2>
+					<p>Firebase projects are backed by Google Cloud,
+						letting you scale your app to billions of users.</p>
+					<a class="footer__link" href="#">Read more</a>
+				</div>
+			</div>
+		</section>
     
-    <main>
-
-			<section class="top-container">            
-				<div class="container-text">
-					<h1 class="container-title-1">Make your app the<br>
-					best it can be</h1>
-					<h2 class="container-title-2">Firebase is an app development platform that helps you<br>
-					build and grow apps and games users love.Backed by<br>
-					Google and trusted by millions of businesses around the<br>
-					world.</h2>        
-					<div class="container-button">
-						<button class="buton-start">Get Started</button>
-						<a href="#" class="buton-start-1">Try demo</a>
-						<div class="vertical"></div>
-						<a href="#" class="buton-start-1">Watch video</a>
-					</div>
-				</div>
-				<div class="top-bg-image">
-					<img src="./assets/section1/section_1.png" alt="bg-image"> 
-				</div>
-		  	</section>
-
-
-		
+<!-- 	Section 6	 -->
 			<section class="section6 flex-column">
 				<h2 class="section-title">News & events</h2>
 				<div class="cards-container flex-row">
@@ -167,3 +259,4 @@
 		</main>
 	</body>
 </html>
+
