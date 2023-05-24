@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.section-8 {
+  margin-top: 40px;
+  margin-left: 270px;
+  width: 1350px;
+  border: 1px solid rgba(128, 128, 128, 0.256);
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: 1px 1px rgba(128, 128, 128, 0.256);
+}
+.section-8-heading {
+  text-align: center;
+  width: 980px;
+  padding-left: 160px;
+  margin-left: 150px;
+  margin-top: 20px;
+}
+.section-8-subheading {
+  text-align: center;
+  width: 920px;
+  padding-left: 200px;
+  margin-left: 150px;
+}
+.container-card-code{
+    display: flex;
+    flex-direction: column;
+    border-left: 1px solid rgba(128, 128, 128, 0.404);
+}
+.container-code{
+    margin-top: 50px;
+    width: 1093px;
+    margin-left: 160px;
+    margin-bottom: 50px;
+}
+.container-code-flex{
+    display: flex;
+    border: 1px solid rgba(128, 128, 128, 0.256);
+    border-radius: 10px;
+}
+.container-code-lefside {
+    display: flex;
+  list-style: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-top: 70px;
+  padding-bottom: 20px;
+  width: 300px;
+}
+.list-styling{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    width: 300px;
+    padding-left: 70px;
+    padding-right: 50px;
+    color: rgba(27, 25, 25, 0.353);
+    font-weight: 800;
+}
+.list-styling:hover{
+    background-color: rgba(255, 112, 36, 0.783);
+    color: white;
+}
+
+.two-items{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.container-code-content{
+    display: flex;
+    background-color: #2e3a4d;
+    width: 792px;
+    font-size: 22px;
+    white-space: nowrap;
+    overflow-x: auto ;
+    color:gray;
+    border: 1px solid gray;
+}
+.heading-code-content{
+    padding: 15px;
+}
+.heading-code-content:hover{
+    color: white;
+    cursor: pointer;
+}
+.subpara{
+    font-size: 15px;
+}
+.code-content-middle{
+    width: 790px;
+    padding: 50px;
+    background-color: rgba(87, 87, 87, 0.067);
+}
+.code-blue-words{
+    color: blue;
+}
+.section-8-footer{
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 64, 255, 0.768);
+    color: white;
+    margin-left: 570px;
+    margin-bottom: 60px;
+}
