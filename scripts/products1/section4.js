@@ -65,7 +65,7 @@ const cardElements = [
 		color: '#03838f',
 	},
 	{
-		title: 'Firebase ML <span>BETA</span>',
+		title: 'Firebase ML <span><sup>BETA<sup></span>',
 		description: 'Add powerful machine learning features to your app with ready-to-use APIs and support for custom model deployment.',
 		headerimg: './assets/assets_product1/section-4/ml_2x.png',
 		logoimg: './assets/assets_product1/section-4/firebase-ml.svg',
