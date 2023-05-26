@@ -5,14 +5,14 @@
 }
 .container-title-1 {
   font-size: 52px;
-  font-weight: 5000;
+  font-weight: 400;
   line-height: 60px;
   margin-bottom: 25px;
   padding: 10px;
 }
 .container-title-2 {
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 30px;
   margin-bottom: 20px;
 }
@@ -26,12 +26,19 @@
   justify-content: center;
   flex-direction: row;
 }
-.top-bg-image {
+.top-bg {
   margin-bottom: 30px;
   padding-bottom: 30px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
+
+.top-bg-image {
+  height: 90%;
+  width: 90%;
+}
+
 .container-text {
   display: flex;
   flex-direction: column;
