@@ -5,18 +5,20 @@
 }
 .container-title-1 {
   font-size: 52px;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 60px;
+  letter-spacing: 1px;
   margin-bottom: 25px;
   padding: 10px;
 }
 .container-title-2 {
   font-size: 24px;
-  font-weight: 300;
+  font-weight: 400;
   line-height: 30px;
   margin-bottom: 20px;
 }
 .top-container {
+  width: 100%;
   padding: 20px;
   margin-top: 63px;
   font-family: "Open Sans", sans-serif;
@@ -27,6 +29,7 @@
   flex-direction: row;
 }
 .top-bg {
+  width: 550px;
   margin-bottom: 30px;
   padding-bottom: 30px;
   display: flex;
@@ -36,10 +39,11 @@
 
 .top-bg-image {
   height: 90%;
-  width: 90%;
+  width: 100%;
 }
 
 .container-text {
+  width: 650px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,12 +53,14 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 510px;
 }
 .buton-start {
   width: 250px;
-  height: 50px;
+  height: 60px;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 700;
+  letter-spacing: 2px;
   border-radius: 10px;
   color: rgb(26, 115, 232);
   background-color: rgb(255, 255, 255);
@@ -62,20 +68,76 @@
 }
 .buton-start:hover {
   cursor: pointer;
+  background-color: rgb(226, 219, 219);
 }
 .buton-start-1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
   text-decoration: none;
   color: rgb(255, 255, 255);
+  width: 130px;
+  height: 40px;
+  border-right: 0.5px solid rgb(255, 255, 255);
 }
 .buton-start-1:hover {
   cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(91, 155, 239);
 }
-.vertical {
-  border-right: 1px solid rgb(255, 255, 255);
-  height: 30px;
-  position: relative;
-  left: 3%;
-  top: 9%;
+.buton-start-2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  width: 120px;
+  height: 40px;
+  
 }
+.buton-start-2:hover {
+  cursor: pointer;
+  border-radius: 10px;  
+  background-color: rgb(91, 155, 239);
+
+}
+@media screen and (max-width: 412px){
+  .top-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .container-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+
+  .top-bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+  }
+  .container-button {
+    flex-direction: column;
+    width: 100%;
+  }
+  .buton-start {
+    margin-bottom: 10px;
+  }
+  .buton-start-1 {
+    margin-bottom: 10px;
+  }
+}
+
