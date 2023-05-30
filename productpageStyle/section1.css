@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url("../assets/background/vec"); */
+    background-color: rgb(255, 102, 0);
+}
+
+.sect_one {
+    display: flex;
+    flex-direction: column;
+    padding: 0 150px;
+    height: 80vh;
+    margin: 150px auto;
+    /* border: 2px solid black; */
+}
+
+.sect_one_top {    
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    background-image: url('../assets/assets_product1/section_1/hero-illo-build_2x.png');  
+    background-size: 45%;
+    background-repeat: no-repeat;
+    background-position: right;
+    /* border: 2px solid black; */
+}
+
+.sect_one_left {
+    padding: 0 100px;
+    width: 65%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.sect_one_left button{
+    width: 15vw;
+ height: 5vh;
+ border: none;
+ border-radius: 10px;
+}
+
+.sect_one_bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.sect_one_bot a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bot_icon {
+    width: 75px;
+    height: 75px;
+    margin: 20px 0;
+}
