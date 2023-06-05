@@ -1,54 +1,51 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}    
-
-.section9{
-    max-width: 1440px ;
-    max-height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-
-.section9 img{
-    width: 75px;
-    height: auto;
-    padding-bottom: 10px;
+.section9 {
+  max-width: 1440px;
+  max-height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.section9 h2{
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 30px;
-    color: #4E6886;
-    /* nu am gasit culoarea in general. Am folosit un plugin in
+.section9 img {
+  width: 75px;
+  height: auto;
+  padding-bottom: 10px;
+}
+
+.section9 h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30px;
+  color: #4e6886;
+  /* nu am gasit culoarea in general. Am folosit un plugin in
     firefox de citit culorile si le-am preluat din design */
 }
 
-.section9 p{
-    font-size: 12px;
-    font-weight: 500;
-    color: #4E6886;
-    padding-bottom: 20px;
-
+.section9 p {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4e6886;
+  padding-bottom: 20px;
 }
 
-.section9 button{
-    width: 120px ;
-    height: 35px;
-    border: none;
-    border-radius: 5px;
-    background-color: rgb(26, 115, 232);
-    color:rgb(255, 255, 255);
-    cursor: pointer;
-    margin-bottom: 100px;
- }
-
-.section9 button:hover{
-    background-color: rgb(68, 135, 222);
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+.section9 button {
+  width: 120px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(26, 115, 232);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  margin-bottom: 100px;
 }
 
+.section9 button:hover {
+  background-color: rgb(68, 135, 222);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}

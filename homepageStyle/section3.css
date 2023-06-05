@@ -1,0 +1,81 @@
+.section-3 {
+  border-radius: 15px solid rgb(236, 221, 221);
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.example {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.title-Fb {
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: center;
+}
+.Paragraf-Fb {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+.icons-fb {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.icons-fb-img {
+  border: 1px solid white;
+  height: 95px;
+  width: 95px;
+}
+
+.Paragraf_Icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.Icons-Stream {
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 28px;
+}
+
+.Icons-Algolia {
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 28px;
+}
+.Icons-Trigger {
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 28px;
+}
+.Icons-Payments {
+  font-size: 18px;
+  font-weight: 400px;
+  line-height: 28px;
+}
+.button-fb {
+  background: rgb(26, 115, 232);
+  border-radius: 10px;
+  padding: 15px 50px 15px 50px;
+  color: white;
+  font-weight: 500;
+  border: none;
+  font-size: 25px;
+}
+
+.Footer-Fb {
+  height: 50px;
+  text-align: center;
+  background-color: rgb(243, 238, 230);
+}

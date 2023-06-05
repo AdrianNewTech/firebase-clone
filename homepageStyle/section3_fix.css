@@ -1,0 +1,128 @@
+.card3{
+
+    border: solid rgb(235, 232, 232);
+    border-radius:15px;
+
+    
+}
+
+
+.section-3 {
+    border-radius: 15px solid rgb(236, 221, 221);
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .stream-fb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .algolia-fb{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .mail-fb{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .payments-fb{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .title-Fb {
+    font-size: 52px;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: center;
+    
+  }
+  
+
+  .paragraf-Fb{
+    color:rgb(117, 110, 110);
+    font-size:24px;
+     font-weight: 400;
+    line-height: 30px;
+
+  }
+  .icons-prf{
+
+    display:flex;
+   flex-direction:row;
+    gap:50px;
+    font-size: 16px;
+     font-weight: 400;
+      line-height: 28px;
+      margin-left:20px;
+      margin-right:20px;
+ 
+  }
+  .icons-fb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:15px;
+    color:rgb(117, 110, 110)
+  }
+  .icons-fb-img {
+    border: 1px solid white;
+    height: 95px;
+    width: 95px;
+  }
+  .icons-fb-img1 {
+    border: 1px solid white;
+    height: 95px;
+    width: 95px;
+  }
+  .icons-fb-img2 {
+    border: 1px solid white;
+    height: 95px;
+    width: 95px;
+  }
+  .icons-fb-img3 {
+    border: 1px solid white;
+    height: 95px;
+    width: 95px;
+  }
+  .icons-fb-img4 {
+    border: 1px solid white;
+    height: 95px;
+    width: 95px;
+  }
+  
+  .button-fb {
+    background: rgb(26, 115, 232);
+    border-radius: 10px;
+    padding: 15px 50px 15px 50px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    font-size: 25px;
+  }
+  
+  .Footer-Fb {
+    
+    text-align: center;
+    background-color: rgb(243, 238, 230);
+   margin-top:40px;
+   width: 100%;
+   
+  }
